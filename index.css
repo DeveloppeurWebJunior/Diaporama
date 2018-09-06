@@ -1,0 +1,65 @@
+ #play {
+            
+         opacity: 0;
+            pointer-events: none;
+       
+        }
+        
+        
+        #play_pause {
+            
+            align-self: center;
+        }
+        
+        
+        
+        
+        #result{
+            width: 400px;
+            height: 400px;
+            overflow: auto;
+        }
+        
+        
+        
+        #imgsrc{
+            overflow: auto;
+            text-align: justify;
+        }
+        
+        
+        
+        .title{
+            font-weight: bold;
+            text-align: center;
+            color: darkblue;
+            font-size: 2rem;
+        }
+        
+        
+        
+        img {
+          width: 400px;
+          min-height: 400px;
+        }
+    
+        
+        
+        #my_galery {
+         
+            user-select: none;
+            display: flex; 
+            align-items: center;
+            justify-content: space-around;
+        }
+        
+        
+       i{
+             font-size: 3rem;
+        }
+      
+        i:hover {
+            color: goldenrod;
+            transition: 1s ease-in;
+        }
+        
